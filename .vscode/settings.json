@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "testing.automaticallyOpenPeekView": "never",
+  "cSpell.language": "en,de,pl"
+}
