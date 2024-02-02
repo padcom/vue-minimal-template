@@ -1,7 +1,7 @@
 {
   "cSpell.language": "en,de,pl",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "testing.automaticallyOpenPeekView": "never",
   "files.associations": {
