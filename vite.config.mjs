@@ -5,6 +5,10 @@ import eslint from 'vite-plugin-eslint'
 import autoprefixer from 'autoprefixer'
 
 export default defineConfig({
+  define: {
+    // set to false if you don't use Vue's options API to shave ~4.5kb off your final bundle
+    __VUE_OPTIONS_API__: true,
+  },
   plugins: [
     vue({
       template: {
