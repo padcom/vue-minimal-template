@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'url'
 import { defineConfig } from 'vite'
 import svg from 'vite-svg-loader'
 import vue from '@vitejs/plugin-vue'
@@ -33,6 +34,11 @@ export default defineConfig({
       plugins: [
         autoprefixer(),
       ],
+    },
+  },
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
 })
