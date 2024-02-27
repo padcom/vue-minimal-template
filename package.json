@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@padcom/eslint-config-vue": "^0.6.0",
-    "@padcom/nano-css-reset": "^0.0.1",
+    "@padcom/nano-css-reset": "^0.1.0",
     "@vitejs/plugin-vue": "^5.0.3",
     "@vue/tsconfig": "^0.5.1",
     "@vueuse/core": "^10.7.2",
