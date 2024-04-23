@@ -4,6 +4,7 @@ import svg from 'vite-svg-loader'
 import vue from '@vitejs/plugin-vue'
 import eslint from 'vite-plugin-eslint'
 import autoprefixer from 'autoprefixer'
+import nesting from 'postcss-nesting'
 
 export default defineConfig({
   define: {
@@ -32,6 +33,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [
+        nesting(),
         autoprefixer(),
       ],
     },

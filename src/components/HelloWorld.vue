@@ -1,5 +1,7 @@
 <template>
-  <h1>Hello, world! {{ message }}</h1>
+  <div class="hello-world">
+    <h1>Hello, world! {{ message }}</h1>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -9,8 +11,10 @@ defineProps({
 </script>
 
 <style lang="postcss" scoped>
-h1 {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.hello-world {
+  h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 </style>
