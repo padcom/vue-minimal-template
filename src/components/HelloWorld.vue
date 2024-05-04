@@ -15,6 +15,7 @@ defineProps({
   h1 {
     font-size: 1.875rem;
     line-height: 2.25rem;
+    background-color: lightgoldenrodyellow;
   }
 }
 </style>
