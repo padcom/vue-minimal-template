@@ -2,7 +2,7 @@
 import { defineBaseConfig } from '@padcom/vite-config-default'
 import { defineVueBaseConfig } from '@padcom/vite-config-vue'
 
-import pkg from './package.json' assert { type: 'json' }
+import pkg from './package.json' with { type: 'json' }
 
 export default defineBaseConfig(pkg, defineVueBaseConfig({
   define: {
