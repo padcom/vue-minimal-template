@@ -16,7 +16,7 @@
     "@padcom/eslint-config-vue": "^0.10.1",
     "@padcom/nano-css-reset": "^0.2.0",
     "@padcom/tsconfig": "^0.0.2",
-    "@padcom/vite-config-vue": "^0.1.0",
+    "@padcom/vite-config-vue": "^0.5.0",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vue/tsconfig": "^0.5.1",
     "@vueuse/core": "^11.1.0",
