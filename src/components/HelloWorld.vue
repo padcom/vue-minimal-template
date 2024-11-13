@@ -1,5 +1,5 @@
 <template>
-  <div class="hello-world">
+  <div class="hello-world" @click="console.log('Here!')">
     <h1>Hello, world! {{ message }}</h1>
   </div>
 </template>
