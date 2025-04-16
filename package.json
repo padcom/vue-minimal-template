@@ -14,22 +14,19 @@
   },
   "devDependencies": {
     "@padcom/eslint-config-vue": "^0.20.1",
-    "@padcom/nano-css-reset": "^0.2.0",
+    "@padcom/nano-css-reset": "^0.3.0",
     "@padcom/tsconfig": "^0.0.2",
-    "@padcom/vite-config-vue": "^0.5.0",
-    "@vitejs/plugin-vue": "^5.1.4",
-    "@vue/tsconfig": "^0.5.1",
-    "@vueuse/core": "^11.1.0",
-    "autoprefixer": "^10.4.20",
-    "postcss-nesting": "^13.0.1",
+    "@padcom/vite-config-default": "^0.10.0",
+    "@padcom/vite-config-vue": "^0.13.0",
+    "@typescript-eslint/eslint-plugin": "8.30.1",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vueuse/core": "^13.1.0",
     "typescript": "^5.6.3",
-    "vite": "^5.4.10",
+    "vite": "^5",
+    "vite-plugin-dts": "^4.5.3",
     "vite-plugin-eslint": "^1.8.1",
     "vite-svg-loader": "^5.1.0",
-    "vue": "^3.5.12",
-    "vue-i18n": "^9.13.1"
-  },
-  "dependencies": {
+    "vue": "^3.5.13",
     "vue-i18n": "^9.13.1"
   }
 }
