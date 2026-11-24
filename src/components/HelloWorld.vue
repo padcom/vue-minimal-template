@@ -1,13 +1,17 @@
 <template>
   <div class="hello-world" @click="console.log('Here!')">
-    <h1>Hello, world! {{ message }}</h1>
+    <h1>{{ t('hello-world') }} {{ message }}</h1>
   </div>
 </template>
 
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n'
+
 defineProps({
   message: { type: String, default: 'from HelloWorld.vue' },
 })
+
+const { t } = useI18n()
 </script>
 
 <style lang="postcss" scoped>
